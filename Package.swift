@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "RealmWrapper", targets: ["RealmWrapper"]),
     ],
     dependencies: [
-      .package(name: "Realm", url: "https://github.com/realm/realm-cocoa", .upToNextMajor(from: "5.0.0"))
+      .package(name: "Realm", url: "https://github.com/realm/realm-cocoa", .upToNextMajor(from: "4.0.0"))
     ],
     targets: [
         .target(
